@@ -12,7 +12,7 @@ a {
 
 a:hover {
     color: black;
-    text-decoration: line;
+    text-decoration:underline
 }
 
 main {
