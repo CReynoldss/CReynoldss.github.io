@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLES</title>
+    <link rel="stylesheet" href="Styles/default.css">
+</head>
+<body>
+    <header>
+        <h1> Christopher Reynold's HTML Tables || ITIS 3135 </h1>
+        <nav>
+            <a href="./">Home</a>
+            ||
+            <a href="introduction.html">Introduction</a>
+            ||
+            <a href="contract.html">Contract</a>
+            ||
+            <a href="tables.html">Tables</a>
+        </nav>
+    </header>
+    <main>
+        <h2>HTML TABLES</h2>
+        <h3>My Tabular Data</h3>
+<ol>
+    <li>Bryce Harper - bryce.harper@phillies.com - 5</li>
+    <li>Mike Trout - mike.trout@angels.org - 8</li>
+    <li>Fred Freeman - fred.freeman@dodgers.net - 12</li>
+    <li>Shohei Othani - shohei.ohtani@dodgers.biz - 3</li>
+    <li>Giancarlo Stanton - g.stanton@yankees.com - 7</li>
+    <li>Babe Ruth - great.bambino@yankess.com - 9</li>
+    <li>Benjamin Rodriguez - benny.jet@dodgers.io - 4</li>
+</ol>
+
+<h3>Employee Data in Simple Table</h3>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Years of Service</th>
+    </tr>
+    <tr>
+        <td>Bryce Harper</td>
+        <td>bryce.harper@phillies.com</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Mike Trout</td>
+        <td>mike.trout@angels.org</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Fred Freeman</td>
+        <td>fred.freeman@dodgers.net</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Shohei Othani</td>
+        <td>shohei.ohtani@dodgers.biz</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Giancarlo Stanton</td>
+        <td>g.stanton@yankees.com</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Babe Ruth</td>
+        <td>great.bambino@yankess.com</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Benjamin Rodriguez</td>
+        <td>benny.jet@dodgers.io</td>
+        <td>4</td>
+    </tr>
+</table>
+
+<h3>Employee Data in Complex Table</h3>
+<figure>
+    <table>
+        <caption>Employee Information</caption>
+        <thead>
+            <tr style="background-color: #444; color: #fff;">
+                <th>Department</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Years of Service</th>
+                <th>Monthly Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Development</td>
+                <td>Bryce Harper</td>
+                <td>bryce.harper@phillies.com</td>
+                <td>5</td>
+                <td>$5,000</td>
+            </tr>
+            <tr>
+                <td>Mike Trout</td>
+                <td>mike.trout@angels.org</td>
+                <td>8</td>
+                <td>$6,500</td>
+            </tr>
+            <tr>
+                <td>Fred Freeman</td>
+                <td>fred.freeman@dodgers.net</td>
+                <td>3</td>
+                <td>$4,200</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Marketing</td>
+                <td>Shohei Othani</td>
+                <td>shohei.ohtani@dodgers.biz</td>
+                <td>7</td>
+                <td>$5,800</td>
+            </tr>
+            <tr>
+                <td>Giancarlo Stanton</td>
+                <td>g.stanton@yankees.com</td>
+                <td>9</td>
+                <td>$7,000</td>
+            </tr>
+            <tr>
+                <td>HR</td>
+                <td>Babe Ruth</td>
+                <td>great.bambino@yankess.com</td>
+                <td>4</td>
+                <td>$4,500</td>
+            </tr>
+            <tr>
+                <td>Operations</td>
+                <td>Benjamin Rodriguez</td>
+                <td>benny.jet@dodgers.io</td>
+                <td>12</td>
+                <td>$8,000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Total Years of Service</th>
+                <td>48</td>
+                <td>$36,000</td>
+            </tr>
+        </tfoot>
+    </table>
+</figure>
+
+        
+    </main>
+    <footer>
+        <nav>
+            <a href="https://webpages.charlotte.edu/creyno35/">Charlotte.edu</a>
+            ||
+            <a href="https://github.com/CReynoldss/">Github</a>
+            ||
+            <a href="https://creynoldss.github.io/">Github pages</a>
+            ||
+            <a href="https://creynoldss.github.io/ITIS3135/">Github Course Page</a>
+            ||
+            <a href="https://www.freecodecamp.org/CReynoldss/">FreeCodeCamp</a>
+            ||
+            <a href="https://www.codecademy.com/profiles/CReynoldss/">CodeAcademy</a>
+            ||
+            <a href="http://www.linkedin.com/in/chris-reynolds-8773b9130/">Linkedin</a>
+        </nav>
+        <p> Page designed by <a href="calculatedrooster.com"> Calculated Rooster Inc. </a>&copy; 2023 </p>
+        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html"><img style="border:0;width:88px;height:31px" src="Images/button_validation_html5.png" alt="Valid HTML!"> </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css"><img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"> </a>
+    </footer>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
+</body>
+</html>
