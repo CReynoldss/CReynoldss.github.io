@@ -3,9 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reynolds Crafts</title>
+    <!-- Color scheme: https://coolors.co/3c1518-69140e-a44200-d58936-f2f3ae -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #3c1518; 
+            color: #f2f3ae; 
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #69140e; 
+            color: #f2f3ae; 
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            display: inline;
+        }
+        header img {
+            width: 50px; 
+            height: 50px; 
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        main {
+            padding: 20px;
+        }
+        h2 {
+            color: #a44200; 
+            border-bottom: 2px solid #a44200; 
+            padding-bottom: 10px;
+        }
+        p {
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none; 
+            padding-left: 0;
+        }
+        ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        ul li:before {
+            content: "➤";
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            background-color: #d58936;
+            border-radius: 50%;
+        }
+        .contact-info {
+            background-color: #69140e; 
+            color: #f2f3ae; 
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
+
+<header>
+    <img src="https://i.pinimg.com/originals/25/68/30/25683029a52bee926203bd344a0b4581.jpg" alt="Company Logo" width="50" height="50">
+    <h1>Reynolds Crafts</h1>
+</header>
+
+<main>
+    <h2>DUCK BOATS</h2>
+    <img src="https://images.boattrader.com/resize/1/77/81/8627781_20221215110542482_1_XLARGE.jpg?w=969&h=646&t=1671131143000" alt="Duck Boats" width="500" height="333">
+    <p>Looking for the best duck boats on the market? Look no further, with our new models with the best options!</p>
     
+    <ul>
+        <li>Unique and innovative designs</li>
+        <li>Exceptional customer service</li>
+        <li>Fast turnaround times</li>
+        <li>Highly skilled team</li>
+        <li>Competitive pricing</li>
+    </ul>
+    
+    <p>We strive to provide the best design solutions in versitle aluminum boats tailored to our clients' needs.</p>
+    
+    <div class="contact-info">
+        <p>Contact Rooster Griggs:</p>
+        <p>Email: rooster@reynoldscrafts.us</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Address: 123 Main Street Charlotte, NC 28075 </p>
+    </div>
+</main>
+<footer>
+    <p> Page designed by <a href="reynoldscrafts.us"> Reynolds Crafts Inc. </a>&copy; 2024 </p>
+    <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html"><img style="border:0;width:88px;height:31px" src="../Images/button_validation_html5.png" alt="Valid HTML!"> </a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css"><img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"> </a>
+</footer>
+<script>
+    document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+    document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+</script>
 </body>
 </html>
