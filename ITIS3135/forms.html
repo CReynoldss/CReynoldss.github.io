@@ -7,24 +7,9 @@
     <link rel="stylesheet" href="Styles/default.css">
 </head>
 <body>
-    <header>
-        <h1> Christopher Reynold's Calculated Rooster || ITIS 3135 </h1>
-        <nav>
-            <a href="./">Home</a>
-            ||
-            <a href="introduction.html">Introduction</a>
-            ||
-            <a href="contract.html">Contract</a>
-            ||
-            <a href="tables.html">Tables</a>
-            ||
-            <a href="forms.html">Forms</a>
-            ||
-            <a href="website_evaluations.html">Website Evaluations</a>
-            || 
-            <a href="Stuff/gATor%20%21TaiLBoats.html">Crappy Website</a>
-        </nav>
-    </header>
+
+    <div data-include="Components/header.html"></div>
+
     <main>
         <h2>FORMS</h2>
         <form action="#" method="post">
@@ -63,29 +48,10 @@
             <input type="submit" value="Submit">
         </form>
     </main>
-    <footer>
-        <nav>
-            <a href="https://webpages.charlotte.edu/creyno35/">Charlotte.edu</a>
-            ||
-            <a href="https://github.com/CReynoldss/">Github</a>
-            ||
-            <a href="https://creynoldss.github.io/">Github pages</a>
-            ||
-            <a href="https://creynoldss.github.io/ITIS3135/">Github Course Page</a>
-            ||
-            <a href="https://www.freecodecamp.org/CReynoldss/">FreeCodeCamp</a>
-            ||
-            <a href="https://www.codecademy.com/profiles/CReynoldss/">CodeAcademy</a>
-            ||
-            <a href="http://www.linkedin.com/in/chris-reynolds-8773b9130/">Linkedin</a>
-        </nav>
-        <p> Page designed by <a href="reynoldscrafts.us"> Reynolds Crafts Inc. </a>&copy; 2024 </p>
-        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html"><img style="border:0;width:88px;height:31px" src="Images/button_validation_html5.png" alt="Valid HTML!"> </a>
-        <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css"><img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"> </a>
-    </footer>
-    <script>
-        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
-        document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-    </script>
+
+    <div data-include="Components/footer.html"></div>
+    
+    <script src="Scripts/Include.js"></script>
+    
 </body>
 </html>
