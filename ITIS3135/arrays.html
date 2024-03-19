@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Reynold's Calculated Rooster || ITIS 3135 Home</title>
+    <link rel="stylesheet" href="Styles/default.css">
+</head>
+<body>
+    
+    <div data-include="Components/header.html"></div>
+    
+    <main>
+        <h2>Arrays</h2>
+    
+        <input type="text" id="nameInput" placeholder="Employee Name">
+        <input type="text" id="salaryInput" placeholder="Salary">
+        <button onclick="addSalary()">Add Salary</button>
+
+        <select id="employeeSelect"></select>
+        <input type="text" id="newSalaryInput" placeholder="New Salary">
+        <button onclick="modifySalary()">Modify Salary</button>
+
+        <button onclick="displayResults()">Display Results</button>
+        <button onclick="displaySalary()">Display Salaries</button>
+
+        <div id="results"></div>
+        <table id="results_table">
+            <tr>
+                <th>Employee</th>
+                <th>Salary</th>
+            </tr>
+        </table>
+    </main>
+    
+    <div data-include="Components/footer.html"></div>
+    
+    <script src="Scripts/Include.js"></script>
+    <script src="Scripts/arrays.js"></script> 
+    
+</body>
+</html>
