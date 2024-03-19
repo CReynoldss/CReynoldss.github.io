@@ -7,9 +7,8 @@ function updateDisplay(value) {
     display.textContent = value;
 }
 
-
-function onNumberClick(number) {
-    currentInput += number;
+function showNum() {
+    currentInput += this.value;
     updateDisplay(currentInput);
 }
 
@@ -58,12 +57,12 @@ function clearCalculator() {
 document.addEventListener('DOMContentLoaded', () => {
     const numberButtons = document.querySelectorAll('[id^="num"]');
     numberButtons.forEach(button => {
-        button.addEventListener('click', () => onNumberClick(button.textContent));
+        button.onclick = showNum;
     });
 
     const operationButtons = document.querySelectorAll('#add, #subtract, #multiply, #divide');
     operationButtons.forEach(button => {
-        button.addEventListener('click', () => onOperatorClick(button.textContent));
+        button.addEventListener('click', () => onOperatorClick(button.value));
     });
 
     document.getElementById('equals').addEventListener('click', calculate);
