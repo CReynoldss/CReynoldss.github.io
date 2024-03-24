@@ -3,10 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../Styles/default.css">
+    <title>Christopher Reynold's Calculated Rooster || ITIS 3135 Home</title>
+    <style>
+        body {
+            background-color: grey; 
+            color: black; 
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        header, nav, main, section, footer {
+            margin: 20px auto; 
+            max-width: 1200px; 
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center; 
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px; 
+        }
+        a {
+            text-decoration: none;
+            color: blue; 
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #00838f; 
+        }
+        section {
+            display: none;
+            background-color: #85292900; 
+            padding: 20px;
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+        section.active {
+            display: block;
+        }
+        img {
+            display: block;
+            margin: 10px auto; 
+            max-width: 100%; 
+            border-radius: 4px; 
+        }        
+        figcaption {
+        text-align: center; 
+        margin-top: 8px; 
+        }
+        #validationLinks a, #validationLinks button {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 10px;
+            background-color: #00bcd4; 
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px; 
+        }
+        footer {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+    
+    <link rel="icon" href="hobby/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    
+    <header>
+        <h1> Christopher Reynold's Calculated Rooster || ITIS 3135 </h1>
+                <nav>
+                    <a href="./">Home</a>
+                    ||
+                    <a href="introduction.html">Introduction</a>
+                    ||
+                    <a href="contract.html">Contract</a>
+                    ||
+                    <a href="tables.html">Tables</a>
+                    ||
+                    <a href="forms.html">Forms</a>
+                    ||
+                    <a href="website_evaluations.html">Website Evaluations</a>
+                    || 
+                    <a href="Stuff/gATor%20%21TaiLBoats.html">Crappy Website</a>
+                    ||
+                    <a href="firstscripts.html">First Scripts</a>
+                    ||
+                    <a href="about.html">About</a>
+                    || 
+                    <a href="byo_intro.html">BYO Intro</a>
+                    ||
+                    <a href="arrays.html">Arrays</a>
+                    ||
+                    <a href="calculator_try.html">Calculator</a>
+                    ||
+                    <a href="calculator_fcc.html">Calculator FCC</a>
+                    ||
+                    <a href="ITIS3135/hobby/index.html">Hobby</a>
+                </nav>
+        </header>
+    
+    <header>
+        <h1>Bass Fishing</h1>
+        <nav>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showSection('who')">Who</a></li>
+                    <li><a href="#" onclick="showSection('what')">What</a></li>
+                    <li><a href="#" onclick="showSection('when')">When</a></li>
+                    <li><a href="#" onclick="showSection('where')">Where</a></li>
+                    <li><a href="#" onclick="showSection('how')">How</a></li>
+                    <li><a href="#" onclick="showSection('why')">Why</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="who">
+            <h2>Who</h2>
+            <h3>About Fishing Enthusiasts</h3>
+            <p>Fishing enthusiasts come from all walks of life, united by their love for the sport. Whether they're beginners or seasoned anglers, fishing brings people together.</p>
+            <figure>
+                <img src="https://redfishtour.com/wp-content/uploads/2021/01/Ultimate-Guide-to-Bass-Fishing-for-Beginners.jpg" alt="Fishing Enthusiasts" />
+                <figcaption>Largemouth Bass fighting being caught by a spinner bait.</figcaption>
+            </figure>            
+        </section>
+
+        <section id="what">
+            <h2>What</h2>
+            <h3>Introduction to Fishing</h3>
+            <p>Fishing is a recreational activity involving catching fish. It can be done in various environments such as freshwater lakes, rivers, or saltwater oceans.</p>
+            <figure>
+                <img src="https://th.bing.com/th/id/OIP.Hruj7tYohNIgSUPti5tqnwAAAA?rs=1&pid=ImgDetMain" alt="Fishing Gear" />
+                <figcaption>Largemouth Bass caught on a jerkbait lure.</figcaption>
+            </figure>
+        </section>
+
+        <section id="when">
+            <h2>When</h2>
+            <h3>Best Times for Fishing</h3>
+            <p>The best times for fishing vary depending on factors such as the species of fish, weather conditions, and location. Generally, early morning and late afternoon are prime times for fishing.</p>
+            <figure>
+                <img src="https://external-preview.redd.it/lS15HBEbnBjBnAHpKJ2-CrMylW1sNSA0KJ7gDcg5ADk.jpg?auto=webp&s=1754f6602a1bf91485fdedb2b7c5c5708b38e10b" alt="Best Times for Fishing" />
+                <figcaption>Its easy waking up at 4 am to go fishing. </figcaption>
+            </figure>
+        </section>
+
+        <section id="where">
+            <h2>Where</h2>
+            <h3>Best Fishing Locations</h3>
+            <p>There are countless excellent fishing locations around the world, from serene mountain streams to bustling ocean shores. Researching local regulations and popular spots can help anglers find the perfect location.</p>
+            <figure>
+                <img src="https://th.bing.com/th/id/OIP.GNIOSt7GsmnmqD_jjOrNzwHaEo?rs=1&pid=ImgDetMain" alt="Best Fishing Locations" />
+                <figcaption>Lily pads are regular bass hangouts.</figcaption>
+            </figure>
+        </section>
+
+        <section id="how">
+            <h2>How</h2>
+            <h3>Fishing Techniques</h3>
+            <p>There are numerous fishing techniques, including casting, trolling, and fly fishing. Each technique requires different skills and equipment, tailored to the target species and environment.</p>
+            <figure>
+                <img src="https://th.bing.com/th/id/R.3ba5735f54784cc70522386e9ac9a3de?rik=GtXSU6t%2fWjyjdg&riu=http%3a%2f%2fwww.in-fisherman.com%2ffiles%2f2014%2f04%2fJeffSimpson-In-Fisherman-Largemouth-Bass.jpg&ehk=QiXs5x%2fIzqj5xdGk2Xry6y71%2f71clH5gERMBAY4OOFc%3d&risl=&pid=ImgRaw&r=0" alt="Fishing Techniques" />
+                <figcaption>Patience is key. Cast all day, catch one small fish. </figcaption>
+            </figure>
+        </section>
+
+        <section id="why">
+            <h2>Why</h2>
+            <h3>Benefits of Fishing</h3>
+            <p>Fishing offers numerous benefits, including relaxation, stress relief, and connection with nature. It provides an opportunity to unplug from the digital world and enjoy the peacefulness of the outdoors.</p>
+            <figure>
+                <img src="https://4.bp.blogspot.com/-RcI-dheqa5Y/VtcLzEgXN-I/AAAAAAAAFqk/t2ZyITE2ZyQ/s1600/Brian%2Bgraves%252C%2Bgator%252C%2Bbig%2Bbasss%2B018.JPG" alt="Benefits of Fishing" />
+                <figcaption>A bad day fishing is still better than a good day at work. </figcaption>
+            </figure>
+        </section>
+    </main>
+    
+    <footer>
+        <nav>
+            <a href="https://webpages.charlotte.edu/creyno35/">Charlotte.edu</a>
+            ||
+            <a href="https://github.com/CReynoldss/">Github</a>
+            ||
+            <a href="https://creynoldss.github.io/">Github pages</a>
+            ||
+            <a href="https://creynoldss.github.io/ITIS3135/">Github Course Page</a>
+            ||
+            <a href="https://www.freecodecamp.org/CReynoldss/">FreeCodeCamp</a>
+            ||
+            <a href="https://www.codecademy.com/profiles/CReynoldss/">CodeAcademy</a>
+            ||
+            <a href="http://www.linkedin.com/in/chris-reynolds-8773b9130/">Linkedin</a>
+        </nav>
+        
+        <p> Page designed by <a href="reynoldscrafts.us"> Reynolds Crafts Inc.</a> Certified in <a href="https://www.freecodecamp.org/certification/CReynoldss/responsive-web-design">RWD</a> &copy; 2024 </p>
+        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html"><img style="border:0;width:88px;height:31px" src="Images/button_validation_html5.png" alt="Valid HTML!"> </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css"><img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"> </a>
+        <button type = "button" onclick = 	"document.querySelectorAll('link[rel=stylesheet]').forEach(function(e)	{e.setAttribute('href', '');});">No CSS</button>
+      
+    </footer>
+    
+    <script>
+        function showSection(id) {
+            document.querySelectorAll('main section').forEach((section) => {
+                section.classList.remove('active');
+            });
+            document.querySelector(`#${id}`).classList.add('active');
+        }
+        function checkAccessibility() {
+            alert('Accessibility check not implemented in this example.');
+        }
+        
+        window.onload = function() {
+            showSection('what');
+        };
+    </script>
     
 </body>
 </html>
